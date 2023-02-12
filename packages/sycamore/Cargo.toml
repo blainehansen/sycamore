@@ -93,6 +93,7 @@ ssr = [
     "sycamore-macro/ssr",
     "sycamore-web/ssr",
 ]
+sycamore-futures = ["futures", "wasm-bindgen-futures", "dep:sycamore-futures"]
 suspense = [
     "futures",
     "wasm-bindgen-futures",

@@ -41,7 +41,7 @@ extern crate self as sycamore;
 pub mod builder;
 pub mod easing;
 pub mod flow;
-#[cfg(feature = "suspense")]
+#[cfg(any(feature = "suspense", feature = "sycamore-futures"))]
 pub mod futures;
 pub mod motion;
 #[cfg(feature = "suspense")]
